@@ -1,0 +1,16 @@
+.card
+{
+    max-width: 350px;
+    margin: 5px;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container >*
+{
+ flex: 1 1 350px;
+}
